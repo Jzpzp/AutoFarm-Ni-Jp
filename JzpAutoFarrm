@@ -1,4 +1,4 @@
---// Jzp so pro
+--// Made by jzp
 if (not game:IsLoaded()) then 
 	game.Loaded:Wait()
 	task.wait(1)
@@ -12,11 +12,11 @@ SG.Name = "abcdefg"
 SG.IgnoreGuiInset = true 
 local TL = Instance.new("TextLabel")
 TL.Parent = SG 
-TL.BackgroundColor3 = Color3.fromRGB(500, 500, 500)
+TL.BackgroundColor3 = Color3.fromRGB(55, 10, 25)
 TL.Active = false
 TL.Font = Enum.Font.MontserratMedium
 TL.TextColor3 = Color3.fromRGB(550, 100, 250)
-TL.TextSize = 24
+TL.TextSize = 30
 TL.AnchorPoint = Vector2.new(0.5, 0.5)
 TL.Position = UDim2.new(0.5, 0, 0.5, 0)
 TL.Size = UDim2.new(1, 0, 1, 0)
